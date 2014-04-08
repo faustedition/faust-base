@@ -26,12 +26,12 @@ YUI.add('facsimile-navigation', function (Y) {
         initializer: function(config) {
 			var navigationPanel = Y.Node.create(
 				'<div>' +
-					'<button id="button_zoom_in"><i class="icon-zoom-in"></i></button>' +
-					'<button id="button_zoom_out"><i class="icon-zoom-out"></i></button>' +
-					'<button id="button_left"><i class="icon-arrow-left"></i></button>' +
-					'<button id="button_up"><i class="icon-arrow-up"></i></button>' +
-					'<button id="button_down"><i class="icon-arrow-down"></i></button>' +
-					'<button id="button_right"><i class="icon-arrow-right"></i></button>' +
+					'<a id="button_zoom_in" class="pure-button"><i class="icon-zoom-in"></i></button>' +
+					'<a id="button_zoom_out" class="pure-button"><i class="icon-zoom-out"></i></button>' +
+					'<a id="button_left" class="pure-button"><i class="icon-arrow-left"></i></button>' +
+					'<a id="button_up" class="pure-button"><i class="icon-arrow-up"></i></button>' +
+					'<a id="button_down" class="pure-button"><i class="icon-arrow-down"></i></button>' +
+					'<a id="button_right" class="pure-button"><i class="icon-arrow-right"></i></button>' +
 					'</div>');
 
 			config.host.get('contentBox').append(navigationPanel);
